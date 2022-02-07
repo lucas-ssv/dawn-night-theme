@@ -57,7 +57,7 @@
     "colors": {
         "terminal.background": "#1C1E29",
         "terminal.foreground": "#F0F0F5",
-        "terminal.ansiBrightBlack": "#6272A4",
+        "terminal.ansiBrightBlack": "#8BE9FD",
         "terminal.ansiBrightRed": "#FF6E6E",
         "terminal.ansiBrightGreen": "#69FF94",
         "terminal.ansiBrightYellow": "#FFFFA5",

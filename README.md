@@ -6,4 +6,4 @@
 
 ## Team
 
-[Lucas Vieira](https://github.com/lucas-ssv) |
+[Lucas Vieira](https://github.com/lucas-ssv)

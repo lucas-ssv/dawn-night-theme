@@ -1,12 +1,14 @@
 {
     "name": "dawn-night-theme",
+    "version": "0.0.1",
+    "publisher": "lucas-ssv",
     "author": "Lucas Vieira",
+    "icon": "icon.png",
     "maintainers": [
         "Lucas Vieira <lucas_99silva@hotmail.com>"
     ],
     "displayName": "Dawn Night Theme",
     "description": "This is a period when the night is over, but the next day has yet to begin. Thus, creatures such as vampires and ghosts, for example, are associated with this time of day.",
-    "version": "0.0.1",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",

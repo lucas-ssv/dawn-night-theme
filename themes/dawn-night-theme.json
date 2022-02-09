@@ -126,7 +126,7 @@
         "tab.border": "#14151D",
         "tab.activeBorderTop": "#8094FF80",
         "tab.inactiveBackground": "#14151D",
-        "tab.inactiveForeground": "#474C66",
+        "tab.inactiveForeground": "#6b6f84",
         "editor.foreground": "#F0F0F5",
         "editor.background": "#1C1E29",
         "editorLineNumber.foreground": "#6b6f84",

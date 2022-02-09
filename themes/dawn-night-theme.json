@@ -62,7 +62,7 @@
         "terminal.ansiBrightGreen": "#69FF94",
         "terminal.ansiBrightYellow": "#FFFFA5",
         "terminal.ansiBrightBlue": "#D6ACFF",
-        "terminal.ansiBrightMagenta": "#FF92DF",
+        "terminal.ansiBrightMagenta": "#8094FF",
         "terminal.ansiBrightCyan": "#A4FFFF",
         "terminal.ansiBrightWhite": "#FFFFFF",
         "terminal.ansiBlack": "#21222C",
@@ -70,7 +70,7 @@
         "terminal.ansiGreen": "#50FA7B",
         "terminal.ansiYellow": "#f4ff75",
         "terminal.ansiBlue": "#BD93F9",
-        "terminal.ansiMagenta": "#ff79d0",
+        "terminal.ansiMagenta": "#8094FF",
         "terminal.ansiCyan": "#8BE9FD",
         "terminal.ansiWhite": "#F8F8F2",
         "focusBorder": "#474C66",
@@ -110,7 +110,7 @@
         "activityBar.foreground": "#F0F0F5",
         "activityBar.activeBorder": "#8094FF80",
         "activityBar.activeBackground": "#8094FF10",
-        "activityBarBadge.background": "#FF79D0",
+        "activityBarBadge.background": "#8094FF",
         "activityBarBadge.foreground": "#F0F0F5",
         "sideBar.background": "#14151D",
         "sideBarTitle.foreground": "#F0F0F5",
@@ -203,7 +203,7 @@
         "editorOverviewRuler.incomingContentForeground": "#8094FF",
         "panel.background": "#1C1E29",
         "panel.border": "#8094FF",
-        "panelTitle.activeBorder": "#FF79D0",
+        "panelTitle.activeBorder": "#8094FF",
         "panelTitle.activeForeground": "#F0F0F5",
         "panelTitle.inactiveForeground": "#474C66",
         "statusBar.background": "#14151D",
@@ -502,7 +502,7 @@
             ],
             "settings": {
                 "foreground": "#8BE9FD",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
@@ -729,7 +729,7 @@
                 "variable.other.predefined"
             ],
             "settings": {
-                "fontStyle": "regular",
+                "fontStyle": "",
                 "foreground": "#8094FF"
             }
         },
@@ -740,7 +740,7 @@
                 "support.type.property-name"
             ],
             "settings": {
-                "fontStyle": "regular"
+                "fontStyle": ""
             }
         },
         {
@@ -859,7 +859,7 @@
                 "source.groovy storage.type.def"
             ],
             "settings": {
-                "fontStyle": "regular",
+                "fontStyle": "",
                 "foreground": "#FF79D0"
             }
         },
@@ -1053,7 +1053,7 @@
                 "meta.variable.assignment.destructured.object.coffee variable variable"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#F0F0F5"
             }
         },
@@ -1121,7 +1121,7 @@
                 "support.constant"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#8094FF"
             }
         },

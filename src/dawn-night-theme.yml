@@ -61,7 +61,7 @@ colors:
   terminal.ansiBrightGreen: *COLOR10
   terminal.ansiBrightYellow: *COLOR11
   terminal.ansiBrightBlue: *COLOR12
-  terminal.ansiBrightMagenta: *COLOR13
+  terminal.ansiBrightMagenta: *PURPLE
   terminal.ansiBrightCyan: *COLOR14
   terminal.ansiBrightWhite: *COLOR15
   terminal.ansiBlack: *COLOR0
@@ -69,7 +69,7 @@ colors:
   terminal.ansiGreen: *COLOR2
   terminal.ansiYellow: *COLOR3
   terminal.ansiBlue: *COLOR4
-  terminal.ansiMagenta: *COLOR5
+  terminal.ansiMagenta: *PURPLE
   terminal.ansiCyan: *COLOR6
   terminal.ansiWhite: *COLOR7
 
@@ -150,7 +150,7 @@ colors:
   activityBar.border:                                                           # Activity Bar border color with the Side Bar
   activityBar.activeBorder: !alpha [*PURPLE, 80]                                  # Activity Bar indicator color
   activityBar.activeBackground: !alpha [*PURPLE, 10]                            # Activity Bar indicator background color
-  activityBarBadge.background: *PINK                                            # Activity notification badge background color
+  activityBarBadge.background: *PURPLE                                            # Activity notification badge background color
   activityBarBadge.foreground: *FG                                              # Activity notification badge foreground color
 
   # Side Bar
@@ -315,7 +315,7 @@ colors:
   # Panel Colors
   panel.background: *BG                                                         # Panel background color
   panel.border: *PURPLE                                                         # Panel border color on the top separating to the editor
-  panelTitle.activeBorder: *PINK                                                # Border color for the active panel title
+  panelTitle.activeBorder: *PURPLE                                                # Border color for the active panel title
   panelTitle.activeForeground: *FG                                              # Title color for the active panel
   panelTitle.inactiveForeground: *COMMENT                                       # Title color for the inactive panel
 
@@ -565,7 +565,7 @@ tokenColors:
     - entity.name.class
     settings:
       foreground: *CYAN
-      fontStyle: normal
+      fontStyle: ""
 
   - name: this, super, self, etc.
     scope:
@@ -753,7 +753,7 @@ tokenColors:
     - support.variable
     - variable.other.predefined
     settings:
-      fontStyle: regular
+      fontStyle: ""
       foreground: *PURPLE
 
   - name: Built-in functions / properties
@@ -761,7 +761,7 @@ tokenColors:
     - support.function
     - support.type.property-name
     settings:
-      fontStyle: regular
+      fontStyle: ""
 
 # =============================================================================
 # Punctuation
@@ -871,7 +871,7 @@ tokenColors:
     - meta.interface-or-protocol storage.type.objc
     - source.groovy storage.type.def
     settings:
-      fontStyle: regular
+      fontStyle: ""
       foreground: *PINK
 
   - name: Types
@@ -1031,7 +1031,7 @@ tokenColors:
     - meta.export variable.other.readwrite.alias                             # Module import aliasing (alias name)
     - meta.variable.assignment.destructured.object.coffee variable variable  # Object destructuring variable (coffeescript)
     settings:
-      fontStyle: normal
+      fontStyle: ""
       foreground: *FG
 
 # =============================================================================
@@ -1091,7 +1091,7 @@ tokenColors:
     scope:
     - support.constant
     settings:
-      fontStyle: normal
+      fontStyle: ""
       foreground: *PURPLE
 
   - name: Makefile prerequisite names

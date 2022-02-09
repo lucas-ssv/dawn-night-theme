@@ -1,6 +1,6 @@
 {
     "name": "dawn-night-theme",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "lucas-ssv",
     "author": "Lucas Vieira",
     "icon": "icon.png",
@@ -14,7 +14,7 @@
         "lint": "node ./scripts/lint.js",
         "vscode:prepublish": "npm run build",
         "vsce-publish": "vsce publish",
-        "vsce-package": "vsce package"
+        "vsce-package": "vsce package --out 'versions'"
     },
     "devDependencies": {
         "git-commit-msg-linter": "^4.0.7",

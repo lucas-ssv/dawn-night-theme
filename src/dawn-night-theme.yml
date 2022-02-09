@@ -8,9 +8,11 @@ semanticHighlighting: true
 dawn-night-theme:
   base:
     - &BG        '#1C1E29'
-    - &FG        '#F0F0F5'
     - &SELECTION '#2B2E40'
     - &COMMENT   '#474C66'
+    - &GREY      '#9093A3'
+    - &DGREY     '#6b6f84'
+    - &FG        '#F0F0F5'
     - &CYAN      '#8BE9FD'
     - &GREEN     '#50FA7B'
     - &ORANGE    '#F0AB7A'
@@ -103,7 +105,7 @@ colors:
   input.background: *BG                                                         # Input box background
   input.foreground: *FG                                                         # Input box foreground
   input.border: *BGDarker                                                       # Input box border
-  input.placeholderForeground: *COMMENT                                         # Input box foreground color for placeholder text
+  input.placeholderForeground: *GREY                                          # Input box foreground color for placeholder text
   inputOption.activeBorder: *PURPLE                                             # Border color of activated options in input fields
   inputValidation.infoForeground:                                               # Input validation foreground color for information severity
   inputValidation.infoBackground:                                               # Input validation background color for information severity
@@ -144,7 +146,7 @@ colors:
 
   # Activity Bar
   activityBar.background: *BGLight                                              # Activity Bar background color
-  activityBar.inactiveForeground: *COMMENT                                      # Activity bar item foreground color when it is inactive
+  activityBar.inactiveForeground: *GREY                                      # Activity bar item foreground color when it is inactive
   activityBar.dropBackground:                                                   # Drag and drop feedback color for the Activity Bar items
   activityBar.foreground: *FG                                                   # Activity bar foreground color (for example used for the icons)
   activityBar.border:                                                           # Activity Bar border color with the Side Bar
@@ -176,14 +178,14 @@ colors:
   tab.activeBorder:                                                             # A border drawn to the bottom of the active tab
   tab.unfocusedActiveBorder:                                                    # A border drawn to the bottom of the active tab in an editor group that is not focused
   tab.inactiveBackground: *BGDark                                               # Inactive Tab background color
-  tab.inactiveForeground: *COMMENT                                              # Inactive Tab foreground color in an active group
+  tab.inactiveForeground: *DGREY                                              # Inactive Tab foreground color in an active group
   tab.unfocusedActiveForeground:                                                # Active tab foreground color in an inactive editor group
   tab.unfocusedInactiveForeground:                                              # Inactive tab foreground color in an inactive editor group
 
   # Editor Colors
   editor.foreground: *FG
   editor.background: *BG
-  editorLineNumber.foreground: *COMMENT
+  editorLineNumber.foreground: *DGREY
   editorCursor.foreground:
 
   editor.selectionBackground: *SELECTION                                        # Color of the editor selection
@@ -259,7 +261,7 @@ colors:
   gitDecoration.modifiedResourceForeground: *CYAN
   gitDecoration.deletedResourceForeground: *RED
   gitDecoration.untrackedResourceForeground: *GREEN
-  gitDecoration.ignoredResourceForeground: *COMMENT
+  gitDecoration.ignoredResourceForeground: *DGREY
   gitDecoration.conflictingResourceForeground: *ORANGE
 
   # Diff Editor Colors
@@ -317,7 +319,7 @@ colors:
   panel.border: *PURPLE                                                         # Panel border color on the top separating to the editor
   panelTitle.activeBorder: *PURPLE                                                # Border color for the active panel title
   panelTitle.activeForeground: *FG                                              # Title color for the active panel
-  panelTitle.inactiveForeground: *COMMENT                                       # Title color for the inactive panel
+  panelTitle.inactiveForeground: *GREY                                       # Title color for the inactive panel
 
   # Status Bar Colors
   statusBar.background: *BGDarker                                               # Standard Status Bar background color
@@ -375,7 +377,7 @@ colors:
   settings.numberInputBorder:          *BGDarker                                # Number input box border
 
   # Breadcrumbs
-  breadcrumb.foreground: *COMMENT                                               # Color of breadcrumb items
+  breadcrumb.foreground: *GREY                                               # Color of breadcrumb items
   breadcrumb.background: *BG
   breadcrumb.focusForeground: *FG                                               # Color of focused breadcrumb items
   breadcrumb.activeSelectionForeground: *FG                                     # Color of selected breadcrumb items

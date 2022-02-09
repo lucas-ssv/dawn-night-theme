@@ -45,7 +45,7 @@ dawn-night-theme:
     - &WHITE         '#FFFFFF'
     - &TAB_DROP_BG   '#44475A70'
     # UI Variants
-    - &BGLighter     '#242735'
+    - &BGLighter     '#4F5368'
     - &BGLight       '#1C1E29' # HSV (230   , 25.71, 27.45)
     - &BGDark        '#14151D' # HSV (234.55, 25   , 17.25)
     - &BGDarker      '#14151D' # HSV (234.55, 25   , 13   )

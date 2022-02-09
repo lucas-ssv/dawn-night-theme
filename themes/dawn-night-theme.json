@@ -48,7 +48,7 @@
             "#3C4058",
             "#FFFFFF",
             "#44475A70",
-            "#242735",
+            "#4F5368",
             "#1C1E29",
             "#14151D",
             "#14151D"
@@ -129,7 +129,7 @@
         "editor.background": "#1C1E29",
         "editorLineNumber.foreground": "#474C66",
         "editor.selectionBackground": "#2B2E40",
-        "editor.selectionHighlightBackground": "#242735",
+        "editor.selectionHighlightBackground": "#4F5368",
         "editor.foldBackground": "#14151D",
         "editor.wordHighlightBackground": "#8BE9FD50",
         "editor.wordHighlightStrongBackground": "#50FA7B50",
@@ -247,7 +247,7 @@
         "breadcrumb.activeSelectionForeground": "#F0F0F5",
         "breadcrumbPicker.background": "#14151D",
         "listFilterWidget.background": "#1C1E29",
-        "listFilterWidget.outline": "#242735",
+        "listFilterWidget.outline": "#4F5368",
         "listFilterWidget.noMatchesOutline": "#FF5555"
     },
     "tokenColors": [

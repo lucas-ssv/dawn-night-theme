@@ -3,6 +3,7 @@
     "version": "0.0.6",
     "publisher": "lucas-ssv",
     "author": "Lucas Vieira",
+    "license": "MIT",
     "icon": "icon.png",
     "maintainers": [
         "Lucas Vieira <lucas_99silva@hotmail.com>"

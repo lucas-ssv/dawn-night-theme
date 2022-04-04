@@ -39,7 +39,8 @@
             "#D6ACFF",
             "#FF92DF",
             "#A4FFFF",
-            "#FFFFFF"
+            "#FFFFFF",
+            "#222433"
         ],
         "brightOther": [
             "#F4FF75",
@@ -107,7 +108,7 @@
         "list.inactiveSelectionBackground": "#2C2F40",
         "list.warningForeground": "#F0AB7A",
         "list.errorForeground": "#FF5555",
-        "activityBar.background": "#1C1E29",
+        "activityBar.background": "#222433",
         "activityBar.inactiveForeground": "#9093A3",
         "activityBar.foreground": "#F0F0F5",
         "activityBar.activeBorder": "#8094FF80",

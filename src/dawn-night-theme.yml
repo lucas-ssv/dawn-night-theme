@@ -37,6 +37,7 @@ dawn-night-theme:
     - &COLOR13       '#FF92DF'
     - &COLOR14       '#A4FFFF'
     - &COLOR15       '#FFFFFF'
+    - &COLOR16       '#222433'
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#F4FF75'
@@ -145,7 +146,7 @@ colors:
   list.focusForeground:                                                         # List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 
   # Activity Bar
-  activityBar.background: *BGLight                                              # Activity Bar background color
+  activityBar.background: *COLOR16                                              # Activity Bar background color
   activityBar.inactiveForeground: *GREY                                      # Activity bar item foreground color when it is inactive
   activityBar.dropBackground:                                                   # Drag and drop feedback color for the Activity Bar items
   activityBar.foreground: *FG                                                   # Activity bar foreground color (for example used for the icons)

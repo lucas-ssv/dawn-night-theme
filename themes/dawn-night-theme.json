@@ -39,7 +39,8 @@
             "#D6ACFF",
             "#FF92DF",
             "#A4FFFF",
-            "#FFFFFF"
+            "#FFFFFF",
+            "#444a6e"
         ],
         "brightOther": [
             "#F4FF75",
@@ -131,7 +132,7 @@
         "editor.background": "#1C1E29",
         "editorLineNumber.foreground": "#6b6f84",
         "editor.selectionBackground": "#2B2E40",
-        "editor.selectionHighlightBackground": "#4F5368",
+        "editor.selectionHighlightBackground": "#2B2E40",
         "editor.foldBackground": "#14151D",
         "editor.wordHighlightBackground": "#8BE9FD50",
         "editor.wordHighlightStrongBackground": "#50FA7B50",
@@ -541,7 +542,7 @@
                 "wildcard.comment"
             ],
             "settings": {
-                "foreground": "#474C66"
+                "foreground": "#444a6e"
             }
         },
         {

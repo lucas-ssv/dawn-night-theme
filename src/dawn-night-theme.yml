@@ -37,6 +37,7 @@ dawn-night-theme:
     - &COLOR13       '#FF92DF'
     - &COLOR14       '#A4FFFF'
     - &COLOR15       '#FFFFFF'
+    - &COLOR16       '#444a6e'
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#F4FF75'
@@ -189,7 +190,7 @@ colors:
   editorCursor.foreground:
 
   editor.selectionBackground: *SELECTION                                        # Color of the editor selection
-  editor.selectionHighlightBackground: *BGLighter                               # Color for regions with the same content as the selection
+  editor.selectionHighlightBackground: *SELECTION                               # Color for regions with the same content as the selection
   editor.inactiveSelectionBackground:                                           # Color of the selection in an inactive editor
   editor.foldBackground: *BGDark                                                # Background color for folded ranges
 
@@ -599,7 +600,7 @@ tokenColors:
     - unused.comment
     - wildcard.comment
     settings:
-      foreground: *COMMENT
+      foreground: *COLOR16
 
   - name: JSDoc-style keywords
     scope:

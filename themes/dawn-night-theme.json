@@ -10,9 +10,11 @@
     "dawn-night-theme": {
         "base": [
             "#1C1E29",
-            "#F0F0F5",
             "#2B2E40",
             "#474C66",
+            "#9093A3",
+            "#6b6f84",
+            "#F0F0F5",
             "#8BE9FD",
             "#50FA7B",
             "#F0AB7A",
@@ -49,7 +51,7 @@
             "#3C4058",
             "#FFFFFF",
             "#44475A70",
-            "#242735",
+            "#4F5368",
             "#1C1E29",
             "#14151D",
             "#14151D"
@@ -63,7 +65,7 @@
         "terminal.ansiBrightGreen": "#69FF94",
         "terminal.ansiBrightYellow": "#FFFFA5",
         "terminal.ansiBrightBlue": "#D6ACFF",
-        "terminal.ansiBrightMagenta": "#FF92DF",
+        "terminal.ansiBrightMagenta": "#8094FF",
         "terminal.ansiBrightCyan": "#A4FFFF",
         "terminal.ansiBrightWhite": "#FFFFFF",
         "terminal.ansiBlack": "#21222C",
@@ -71,7 +73,7 @@
         "terminal.ansiGreen": "#50FA7B",
         "terminal.ansiYellow": "#f4ff75",
         "terminal.ansiBlue": "#BD93F9",
-        "terminal.ansiMagenta": "#ff79d0",
+        "terminal.ansiMagenta": "#8094FF",
         "terminal.ansiCyan": "#8BE9FD",
         "terminal.ansiWhite": "#F8F8F2",
         "focusBorder": "#474C66",
@@ -89,7 +91,7 @@
         "input.background": "#1C1E29",
         "input.foreground": "#F0F0F5",
         "input.border": "#14151D",
-        "input.placeholderForeground": "#474C66",
+        "input.placeholderForeground": "#9093A3",
         "inputOption.activeBorder": "#8094FF",
         "inputValidation.infoBorder": "#FF79D0",
         "inputValidation.warningBorder": "#F0AB7A",
@@ -106,12 +108,12 @@
         "list.inactiveSelectionBackground": "#2C2F40",
         "list.warningForeground": "#F0AB7A",
         "list.errorForeground": "#FF5555",
-        "activityBar.background": "#1C1E29",
-        "activityBar.inactiveForeground": "#474C66",
+        "activityBar.background": "#222433",
+        "activityBar.inactiveForeground": "#9093A3",
         "activityBar.foreground": "#F0F0F5",
         "activityBar.activeBorder": "#8094FF80",
         "activityBar.activeBackground": "#8094FF10",
-        "activityBarBadge.background": "#FF79D0",
+        "activityBarBadge.background": "#8094FF",
         "activityBarBadge.foreground": "#F0F0F5",
         "sideBar.background": "#14151D",
         "sideBarTitle.foreground": "#F0F0F5",
@@ -125,12 +127,12 @@
         "tab.border": "#14151D",
         "tab.activeBorderTop": "#8094FF80",
         "tab.inactiveBackground": "#14151D",
-        "tab.inactiveForeground": "#474C66",
+        "tab.inactiveForeground": "#6b6f84",
         "editor.foreground": "#F0F0F5",
         "editor.background": "#1C1E29",
-        "editorLineNumber.foreground": "#474C66",
+        "editorLineNumber.foreground": "#6b6f84",
         "editor.selectionBackground": "#2B2E40",
-        "editor.selectionHighlightBackground": "#242735",
+        "editor.selectionHighlightBackground": "#4F5368",
         "editor.foldBackground": "#14151D",
         "editor.wordHighlightBackground": "#8BE9FD50",
         "editor.wordHighlightStrongBackground": "#50FA7B50",
@@ -175,7 +177,7 @@
         "gitDecoration.modifiedResourceForeground": "#8BE9FD",
         "gitDecoration.deletedResourceForeground": "#FF5555",
         "gitDecoration.untrackedResourceForeground": "#50FA7B",
-        "gitDecoration.ignoredResourceForeground": "#474C66",
+        "gitDecoration.ignoredResourceForeground": "#6b6f84",
         "gitDecoration.conflictingResourceForeground": "#F0AB7A",
         "diffEditor.insertedTextBackground": "#50FA7B20",
         "diffEditor.removedTextBackground": "#FF555550",
@@ -204,9 +206,9 @@
         "editorOverviewRuler.incomingContentForeground": "#8094FF",
         "panel.background": "#1C1E29",
         "panel.border": "#8094FF",
-        "panelTitle.activeBorder": "#FF79D0",
+        "panelTitle.activeBorder": "#8094FF",
         "panelTitle.activeForeground": "#F0F0F5",
-        "panelTitle.inactiveForeground": "#474C66",
+        "panelTitle.inactiveForeground": "#9093A3",
         "statusBar.background": "#14151D",
         "statusBar.foreground": "#F0F0F5",
         "statusBar.debuggingBackground": "#FF5555",
@@ -242,13 +244,13 @@
         "settings.numberInputBackground": "#14151D",
         "settings.numberInputForeground": "#F0F0F5",
         "settings.numberInputBorder": "#14151D",
-        "breadcrumb.foreground": "#474C66",
+        "breadcrumb.foreground": "#9093A3",
         "breadcrumb.background": "#1C1E29",
         "breadcrumb.focusForeground": "#F0F0F5",
         "breadcrumb.activeSelectionForeground": "#F0F0F5",
         "breadcrumbPicker.background": "#14151D",
         "listFilterWidget.background": "#1C1E29",
-        "listFilterWidget.outline": "#242735",
+        "listFilterWidget.outline": "#4F5368",
         "listFilterWidget.noMatchesOutline": "#FF5555"
     },
     "tokenColors": [
@@ -503,7 +505,7 @@
             ],
             "settings": {
                 "foreground": "#8BE9FD",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
@@ -730,7 +732,7 @@
                 "variable.other.predefined"
             ],
             "settings": {
-                "fontStyle": "regular",
+                "fontStyle": "",
                 "foreground": "#8094FF"
             }
         },
@@ -741,7 +743,7 @@
                 "support.type.property-name"
             ],
             "settings": {
-                "fontStyle": "regular"
+                "fontStyle": ""
             }
         },
         {
@@ -860,7 +862,7 @@
                 "source.groovy storage.type.def"
             ],
             "settings": {
-                "fontStyle": "regular",
+                "fontStyle": "",
                 "foreground": "#FF79D0"
             }
         },
@@ -1054,7 +1056,7 @@
                 "meta.variable.assignment.destructured.object.coffee variable variable"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#F0F0F5"
             }
         },
@@ -1122,7 +1124,7 @@
                 "support.constant"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#8094FF"
             }
         },

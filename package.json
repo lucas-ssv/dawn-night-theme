@@ -3,6 +3,7 @@
     "version": "0.0.9",
     "publisher": "lucas-ssv",
     "author": "Lucas Vieira",
+    "license": "MIT",
     "icon": "icon.png",
     "maintainers": [
         "Lucas Vieira <lucas_99silva@hotmail.com>"
@@ -13,7 +14,8 @@
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
         "vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
+        "vsce-publish": "vsce publish",
+        "vsce-package": "vsce package --out 'versions'"
     },
     "devDependencies": {
         "git-commit-msg-linter": "^4.0.7",

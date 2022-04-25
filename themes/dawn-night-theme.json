@@ -37,7 +37,8 @@
             "#D6ACFF",
             "#FF92DF",
             "#A4FFFF",
-            "#FFFFFF"
+            "#FFFFFF",
+            "#42496e"
         ],
         "brightOther": [
             "#F4FF75",
@@ -539,7 +540,7 @@
                 "wildcard.comment"
             ],
             "settings": {
-                "foreground": "#474C66"
+                "foreground": "#42496e"
             }
         },
         {

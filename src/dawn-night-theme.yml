@@ -35,6 +35,7 @@ dawn-night-theme:
     - &COLOR13       '#FF92DF'
     - &COLOR14       '#A4FFFF'
     - &COLOR15       '#FFFFFF'
+    - &COLOR16       '#42496e'
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#F4FF75'
@@ -597,7 +598,7 @@ tokenColors:
     - unused.comment
     - wildcard.comment
     settings:
-      foreground: *COMMENT
+      foreground: *COLOR16
 
   - name: JSDoc-style keywords
     scope:

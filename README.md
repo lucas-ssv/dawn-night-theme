@@ -1,7 +1,5 @@
 <h1 align="center">
   <br>
-  <img src="https://dawn-night-theme.s3.amazonaws.com/icon.png" alt="Dawn Night Theme" width="250">
-  <br>
   Dawn Night Theme for <a href="https://code.visualstudio.com">Visual Studio Code</a>
   <br>
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
